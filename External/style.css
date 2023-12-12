@@ -1,0 +1,130 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.container{
+      width: 100%;
+      min-height: 100vh;
+      overflow: hidden;
+      padding: 5px 10px;
+}
+.content{
+      border: 5px solid #5d5b5bdb;
+
+}
+.header {
+      height: 100px;
+      background: #13bfefd1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.navBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 5rem;
+}
+.logo p {
+      font-size: 2rem;
+}
+.wrapper{
+      padding: 5px 20rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+.top-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 5px;
+}
+.top-left{
+      width: 50%;
+      background: rgb(0, 255, 0);
+      height: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin-right: 5px;
+}
+.top-right{
+      width: 20%;
+      background: #cc00ffd6;
+      height: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+}
+.bottom-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 5px;
+}
+.bottom-left{
+      width: 35%;
+      background: rgb(255, 153, 0);
+      height: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin-right: 5px;
+}
+.bottom-right{
+      width: 35%;
+      background: rgb(255, 153, 0);
+      height: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+}
+.footer {
+      height: 100px;
+      background: #1338efd1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.footerBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 5rem;
+}
+@media screen and (max-width: 768px) {
+      /* .container{
+            height: 100vh;
+      } */
+      .navBox {
+            padding: 0 0.5rem;
+      }
+
+      .wrapper {
+            padding: 5px 0.7rem 0;
+      }
+
+      .top-left,
+      .top-right,
+      .bottom-left,
+      .bottom-right {
+            height: 10rem;
+            font-size: 1.2rem;
+      }
+}
